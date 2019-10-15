@@ -13,7 +13,7 @@ class Plugin : Plugin<Project> {
         private const val unixPatchPlaceHolder = "# Determine the Java command to use to start the JVM."
         private const val winPatchPlaceHolder = "@rem Find java.exe"
         const val wrapperTaskName = "wrapper"
-        const val jvmWrapperTaskName = "jvm-wrapper"
+        const val jvmWrapperTaskName = "jvmWrapper"
         const val winWrapperFileName = "gradlew"
         const val unixWrapperFileName = "gradlew.bat"
     }
